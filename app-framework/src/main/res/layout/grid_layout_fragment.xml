@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <TextView
+            android:id="@+id/tv_content"
+            android:text="123"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+    <GridLayout
+        android:background="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        >
+
+        <Button
+            android:id="@+id/clear"
+            android:text="C"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/delete"
+            android:text="del"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/divide"
+            android:text="÷"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/multiply"
+            android:text="×"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+        <!-- 2 row-->
+        <Button
+            android:id="@+id/seven"
+            android:text="7"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/eight"
+            android:text="8"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/nine"
+            android:text="9"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/subtract"
+            android:text="-"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <!-- 3 row -->
+        <Button
+            android:id="@+id/four"
+            android:text="4"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/five"
+            android:text="5"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/six"
+            android:text="6"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:text="+"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+        <!-- row -->
+
+        <Button
+            android:id="@+id/one"
+            android:text="1"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/two"
+            android:text="2"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+
+        <Button
+            android:id="@+id/three"
+            android:text="3"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+        <Button
+            android:id="@+id/queal"
+            android:layout_rowSpan="2"
+            android:text="="
+            android:layout_width="85dp"
+            android:layout_height="128dp"
+            />
+        <!-- row -->
+        <Button
+            android:text="0"
+            android:id="@+id/zero"
+            android:layout_columnSpan="2"
+            android:layout_width="166dp"
+            android:layout_height="65dp"
+            />
+        <Button
+            android:id="@+id/dot"
+            android:text="."
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            />
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="诚信有道"
+        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="天道酬勤"
+        android:layout_toLeftOf="@id/btn1"
+        android:layout_centerVertical="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <Button
+    android:id="@+id/btn3"
+    android:text="自强不息"
+    android:layout_toRightOf="@id/btn1"
+    android:layout_centerVertical="true"
+    android:layout_width="80dp"
+    android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:text="志博云天"
+        android:layout_above="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:text="厚德载物"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+</RelativeLayout>

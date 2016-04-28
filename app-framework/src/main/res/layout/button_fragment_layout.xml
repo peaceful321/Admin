@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按下后显示不同的颜色"
+        android:background="@drawable/button_selector"
+        android:id="@+id/pressedChangeBtn" />
+
+    <Button
+        style="@style/Button_Text_bg_Changed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按下后文字颜色和按钮同时变化"
+        android:id="@+id/pressedChangeBtn2" />
+
+</LinearLayout>

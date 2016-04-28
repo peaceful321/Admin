@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--string-array: widgets_title and widgets_content are for WidgetFragment Target Item-->
+    <string-array name="widgets_title">
+        <item>Buttons</item>
+        <item>RelativeLayout</item>
+        <item>GridLayout_计算器例子</item>
+        <item>Checkboxes</item>
+        <item>Radio Button</item>
+        <!--<item>DateTime Picker</item>
+        <item>Gallery</item>
+        <item>GridView</item>
+        <item>GridView Custom</item>
+        <item>ImageView</item>
+        <item>Layout - Frame</item>
+        <item>Layout - Relative</item>
+        <item>Layout - Table 1</item>
+        <item>Layout - Table 2</item>
+        <item>Layout - Table 3</item>
+        <item>ListView 1</item>
+        <item>ListView 2</item>
+        <item>ListView 3</item>
+        <item>ListView 4</item>
+        <item>Spinner</item>
+        <item>Styles</item>
+        <item>TextView</item>
+        <item>Weight vs. Gravity</item>-->
+    </string-array>
+
+    <string-array name="widgets_content">
+        <item>ButtonFragment</item>
+        <item>RelativeLayoutFragment</item>
+        <item>GridLayoutFragment</item>
+        <item>CheckBoxFragment</item>
+        <item>RadioGroupFragment</item>
+        <!--<item>DateTimePickerFragment</item>-->
+        <!--<item>GalleryFragment</item>-->
+        <!--<item>GridViewFragment</item>-->
+        <!--<item>GridViewCustomAdapter</item>-->
+        <!--<item>ImageViewFragment</item>-->
+        <!--<item>FrameLayoutFragment</item>-->
+        <!--<item>RelativeLayoutFragment</item>-->
+        <!--<item>TableLayoutFragment1</item>-->
+        <!--<item>TableLayoutFragment2</item>-->
+        <!--<item>TableLayoutFragment3</item>-->
+        <!--<item>ListViewFragment</item>-->
+        <!--<item>ListViewFragment2</item>-->
+        <!--<item>ListViewFragment3</item>-->
+        <!--<item>ListViewFragment4</item>-->
+        <!--<item>SpinnerFragment</item>-->
+        <!--<item>StylesFragment</item>-->
+        <!--<item>TextViewFragment</item>-->
+        <!--<item>WeightGravity</item>-->
+    </string-array>
+
+</resources>
+
