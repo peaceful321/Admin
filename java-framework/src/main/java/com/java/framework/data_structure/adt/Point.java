@@ -7,6 +7,7 @@ public interface Point {
 
     public String toString();
 
+    //获取和另外一个点之间的距离
     public double getDistance(Point point);
 
 }
