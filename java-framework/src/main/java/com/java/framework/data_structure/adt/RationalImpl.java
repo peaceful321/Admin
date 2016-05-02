@@ -111,7 +111,7 @@ public class RationalImpl implements Rational {
      *
      * @return
      */
-    public int getCommonDivisor(int numerator, int denominator) {
+    private int getCommonDivisor(int numerator, int denominator) {
         int i = 1, commDivisor = 0;
         int temp = numerator;
         if (temp < denominator){
