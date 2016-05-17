@@ -1,7 +1,8 @@
 package com.java.framework.data_structure.queue;
 
 /**
- * Created by Ryan Xu on 2016/4/24.
+ * 队列的ADT规格
+ * Created by Ryan Xu on 2016/5/5.
  */
 public interface Queue {
 
